@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3A8ACE5424768A1C00A2BD24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ACE5324768A1C00A2BD24 /* AppDelegate.swift */; };
 		3A8ACE5624768A1C00A2BD24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ACE5524768A1C00A2BD24 /* SceneDelegate.swift */; };
-		3A8ACE5824768A1C00A2BD24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ACE5724768A1C00A2BD24 /* ViewController.swift */; };
 		3A8ACE5B24768A1C00A2BD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8ACE5924768A1C00A2BD24 /* Main.storyboard */; };
 		3A8ACE5D24768A1E00A2BD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8ACE5C24768A1E00A2BD24 /* Assets.xcassets */; };
 		3A8ACE6024768A1E00A2BD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8ACE5E24768A1E00A2BD24 /* LaunchScreen.storyboard */; };
+		3A8ACE6C24769D3200A2BD24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ACE6B24769D3200A2BD24 /* TableViewController.swift */; };
+		3A8ACE6E24769D9000A2BD24 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ACE6D24769D9000A2BD24 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A8ACE5024768A1C00A2BD24 /* Kyrsach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kyrsach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8ACE5024768A1C00A2BD24 /* Goal sheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal sheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8ACE5324768A1C00A2BD24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8ACE5524768A1C00A2BD24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A8ACE5724768A1C00A2BD24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A8ACE5A24768A1C00A2BD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A8ACE5C24768A1E00A2BD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8ACE5F24768A1E00A2BD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8ACE6124768A1E00A2BD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8ACE6B24769D3200A2BD24 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3A8ACE6D24769D9000A2BD24 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		3A8ACE5124768A1C00A2BD24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A8ACE5024768A1C00A2BD24 /* Kyrsach.app */,
+				3A8ACE5024768A1C00A2BD24 /* Goal sheet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3A8ACE5324768A1C00A2BD24 /* AppDelegate.swift */,
+				3A8ACE6D24769D9000A2BD24 /* Model.swift */,
 				3A8ACE5524768A1C00A2BD24 /* SceneDelegate.swift */,
-				3A8ACE5724768A1C00A2BD24 /* ViewController.swift */,
+				3A8ACE6B24769D3200A2BD24 /* TableViewController.swift */,
 				3A8ACE5924768A1C00A2BD24 /* Main.storyboard */,
 				3A8ACE5C24768A1E00A2BD24 /* Assets.xcassets */,
 				3A8ACE5E24768A1E00A2BD24 /* LaunchScreen.storyboard */,
@@ -84,7 +87,7 @@
 			);
 			name = Kyrsach;
 			productName = Kyrsach;
-			productReference = 3A8ACE5024768A1C00A2BD24 /* Kyrsach.app */;
+			productReference = 3A8ACE5024768A1C00A2BD24 /* Goal sheet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A8ACE5824768A1C00A2BD24 /* ViewController.swift in Sources */,
 				3A8ACE5424768A1C00A2BD24 /* AppDelegate.swift in Sources */,
+				3A8ACE6C24769D3200A2BD24 /* TableViewController.swift in Sources */,
 				3A8ACE5624768A1C00A2BD24 /* SceneDelegate.swift in Sources */,
+				3A8ACE6E24769D9000A2BD24 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +289,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94GYYQVAQ4;
 				INFOPLIST_FILE = Kyrsach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "model-1.Kyrsach";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "model-1.Kyrsach124";
+				PRODUCT_NAME = "Goal sheet";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +307,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94GYYQVAQ4;
 				INFOPLIST_FILE = Kyrsach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "model-1.Kyrsach";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "model-1.Kyrsach124";
+				PRODUCT_NAME = "Goal sheet";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
